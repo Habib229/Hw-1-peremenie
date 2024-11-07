@@ -81,5 +81,7 @@ public class Main {
         employeesInTheCompany = employeesInTheCompany + 94;
         var newWorkingHoursForEmployees = workingHours / employeesInTheCompany;
         System.out.println("Если в компании работает " + employeesInTheCompany + " человек, то всего " + newWorkingHoursForEmployees + " часов работы может быть поделено между сотрудниками");
+
+        System.out.println();
     }
 }
